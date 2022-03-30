@@ -1,6 +1,6 @@
 package dailyPromblem;
 
-import java.util.List;
+import java.util.*;
 
 public class s143 {
     public static class ListNode {
