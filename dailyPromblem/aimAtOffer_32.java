@@ -39,7 +39,7 @@ public class aimAtOffer_32 {
                 Collections.reverse(path);
             }
             forward = !forward;
-            res.add(new ArrayList(path));
+            res.add(new ArrayList<>(path));
         }
         return res;
     }
