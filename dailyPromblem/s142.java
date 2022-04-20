@@ -1,7 +1,5 @@
 package dailyPromblem;
 
-import java.util.List;
-
 /**
  * s142
  */
