@@ -1,6 +1,7 @@
 package dailyPromblem;
 
 public class s45 {
+    // 
     public int jump(int[] nums) {
         int len = nums.length;
         if (len == 1) {
