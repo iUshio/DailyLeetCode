@@ -32,14 +32,13 @@ public class interview02_05 {
             }
             l1tmp.val += l2tmp.val;
 
-
             l1tmp = l1tmp.next;
             l2tmp = l2tmp.next;
         }
         
         l1tmp = l1;
         // l2tmp = l1tmp;
-
+        // 处理进位
         while(l1tmp != null){
             l2tmp = l1tmp.next;
             if(l1tmp.val >= 10){
