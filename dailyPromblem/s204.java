@@ -1,6 +1,6 @@
 package dailyPromblem;
 
-import java.util.*;;
+import java.util.*;
 
 public class s204 {
     // 方法1：枚举法（超时）
