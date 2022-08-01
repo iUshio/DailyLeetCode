@@ -23,7 +23,7 @@ public class s146 {
         List<Integer> list;
         int capacity;
 
-        public LRUCache(int capacity) {
+        public LRUCache1(int capacity) {
             map = new HashMap<>();
             list = new ArrayList<>();
             this.capacity = capacity;
@@ -62,7 +62,7 @@ public class s146 {
         }
     }
 
-    public class LRUCache {
+    static class LRUCache {
         class DLinkedNode {
             int key;
             int value;
