@@ -1,6 +1,6 @@
 package dailyPromblem;
 
-import java.util.*;;
+import java.util.*;
 
 public class s402 {
 
