@@ -1,7 +1,7 @@
 package dailyPromblem;
 
 public class s122 {
-    public int maxProfit(int[] prices) {
+    public int maxProfit1(int[] prices) {
         int len = prices.length;
         if(len == 1){
             return 0;
@@ -20,5 +20,17 @@ public class s122 {
         return dp[len - 1];
     }
 
-    
+    public int maxProfit(int[] prices) {
+        int len = prices.length,res = 0,pre = prices[0];
+        for(int i = 1; i < len; i++){
+            if(prices[i] > pre){
+                // 卖出股票
+                res += prices[i] - pre;
+            }
+            pre = prices[i];
+        }
+
+        return res;
+    }
+
 }
