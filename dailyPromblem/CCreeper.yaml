@@ -6,18 +6,18 @@ proxies:
   # 下面放入你的节点信息（可以多个，认证仔细点！），节点名字支持 🇭🇰 🇺🇸 🇸🇬 🇲🇴 🇬🇧 🇩🇪 🇯🇵 🇰🇷 🇮🇳 等图标。
   - name: "vless-ws-cdn"
     type: vless
-    server: cdn.ututu.top
+    server: fast.ututu.top
     port: 443
-    uuid: d4a05638-ce33-44fd-e048-1487e9002165
+    uuid: 7fc90783-e172-5f25-a0d0-6700e132637e
     udp: true
     tls: true
     network: ws
-    servername: cdn.ututu.top # priority over wss host
+    servername: fast.ututu.top # priority over wss host
     # skip-cert-verify: true
     ws-opts:
-      path: "/ray"
+      path: "/trojan-panel-websocket-path"
       headers:
-        Host: cdn.ututu.top
+        Host: fast.ututu.top
 
   - name: "vless-tcp"
     type: vless
